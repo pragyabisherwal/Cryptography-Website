@@ -234,10 +234,16 @@ header {
   justify-content:center ;
   align-items: center;
    margin: 5rem;
-   padding: 5rem;
-   
-   
 }
+
+.desc--text
+{
+  color: var(--color-white);
+  width: 80%;
+  align-self: center;
+ 
+}
+
 .description {
   height: 50vh;
   width: 90%;
