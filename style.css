@@ -238,14 +238,18 @@ header {
 
 .desc--text
 {
+  display: flex;
+  justify-content:center ;
+  align-items: center;
   color: var(--color-white);
-  width: 80%;
+  width: 100%;
   align-self: center;
+  
  
 }
 
 .description {
-  height: 50vh;
+ 
   width: 90%;
   display: flex;
   flex-direction: column;
@@ -371,6 +375,7 @@ header {
   position: relative;
   right: 2rem;
   margin: 2rem 1rem;
+  width: 100%;
 
 }
 .contact-subHead
@@ -389,6 +394,10 @@ header {
 
 .contact-form form {
   width: 80%;
+  
+  position: relative;
+  left:6rem;
+  margin: 2rem;
 }
 
 .contact-form .row {
@@ -419,7 +428,7 @@ header {
   background-color: var(--color-purple);
   border-radius: 20px;
 
-  color:white;
+  color:black;
   font-weight: bolder;
   padding: 10px;
   outline: none;
@@ -430,12 +439,12 @@ header {
 
 .contact-form .row textarea {
   height: 250px;
-  color:white;
+  color:black;
 }
 
 .contact-form .row ::placeholder{
   padding: 1rem;
-  color: #FFBE0B;
+  color:var(--color-white);
 }
 
 .contact-form .row input[type="submit"] {
@@ -445,11 +454,81 @@ header {
   cursor: pointer;
 }
 
+/* ALGORITHMS  */
+.heading--algos
+{
+  color: var(--primary-color);
+  font-size: 3.5rem;
+  font-weight: bolder;
+  text-shadow: 1px 1px var(--color-purple);
+  align-self:center;
+  margin: 2rem;
+  padding: 1rem;
+}
+
+.algos--image
+{
+  display: flex;
+  justify-content:space-between;
+  align-items: baseline;
+  
+}
+
+.algos--img{
+  border-radius: 32px;
+  margin: 2.3rem;
+  border: 2.5px solid orange;
+}
+
+.algos--img-2{
+  border-radius: 32px;
+  margin-top:6rem;
+  width:500px;
+  height:300px;
+  margin-right:3rem;
+  border: 2.5px solid orange;
+}
+
+.algos--dataImage
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.sub--head--algos
+{
+  color: var(--color-white);
+  font-size:4rem;
+  font-weight: bold;
+  text-shadow: 1px 1px orange;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 2rem;
+  margin-top:4rem;
+ 
+}
+
+.text--tag{
+ color: var(--color-white);
+ align-self: stretch;
+}
+
+.code--help
+{
+
+  margin-top: 3rem;
+  width:100%;
+  
+  
+}
+
 @media(max-width:950px) {
   .hero-img,
-  /* .sub-nav {
-    display: none;
-  } */
+  
 
   .content {
     flex: 0 0 100%;
@@ -463,6 +542,8 @@ header {
 
   .contact-form form {
     width: 100%;
+  position: relative;
+  right:10rem;
   }
 
   .contact-form .row {
