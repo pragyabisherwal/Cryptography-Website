@@ -521,10 +521,43 @@ header {
 {
 
   margin-top: 3rem;
+  margin-bottom: 5rem;
   width:100%;
   
   
 }
+
+.footer--main {
+  background:var(--color-purple);
+}
+
+.credit
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  font-weight: bolder;
+  font-size: larger;
+  
+  color: var(--color-white);
+  margin-top:6rem;
+  
+}
+
+.share{
+  display: flex;
+  justify-content:center;
+  color: red;
+  align-items: center;
+}
+
+.share>a{
+ 
+  margin: 2rem;
+}
+
+
 
 @media(max-width:950px) {
   .hero-img,
