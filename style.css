@@ -64,6 +64,7 @@ p {
  position: relative;
  left: 1rem;
   color: var(--color-blue);
+  text-align: justify;
 }
 
 
@@ -118,6 +119,7 @@ p {
   width: 50%;
   padding: 2rem;
   color: var(--color-white);
+  text-align: justify;
 }
 
 
@@ -244,6 +246,8 @@ header {
   color: var(--color-white);
   width: 100%;
   align-self: center;
+  margin-right:2rem;
+ text-align: justify;
   
  
 }
@@ -281,6 +285,7 @@ header {
   width: 100%;
   margin-top: 2rem;
   margin-bottom:3rem;
+  text-align: justify;
 }
 
 .Project--card
@@ -333,9 +338,48 @@ header {
 /* Style the back side */
 .flip-card-back {
   background-color:var(--primary-color);
-  color: white;
+  font-size:1.5rem;
+  color: rgb(0, 0, 0);
   transform: rotateY(180deg);
 }
+
+.flip-card-back>h3 {
+  padding:2rem;
+  font-style: italic;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color:orange;
+}
+
+.btn--algos
+{
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #c56a4f;
+  font-weight: bolder;
+  border: none;
+  color:black;
+  text-align: center;
+  font-size:28px;
+  padding:5px;
+
+  width:170px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin:3px;
+
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+  /* position: relative;
+  left:4rem; */
+  
+
+}
+
+.btn--algos:hover{
+  background-color:var(--color-purple);
+}
+
+
 /* contact  */
 
 .heading-contact{
@@ -376,6 +420,7 @@ header {
   right: 2rem;
   margin: 2rem 1rem;
   width: 100%;
+  text-align: justify;
 
 }
 .contact-subHead
@@ -478,18 +523,21 @@ header {
 }
 
 .algos--img{
-  border-radius: 32px;
-  margin: 2.3rem;
-  border: 2.5px solid orange;
+  border-radius:42px;
+  /* margin: 2.3rem; */
+  width:100%; 
+  height:350px;
+  
+ 
 }
 
 .algos--img-2{
-  border-radius: 32px;
+  border-radius: 52px;
   margin-top:6rem;
   width:500px;
   height:300px;
   margin-right:3rem;
-  border: 2.5px solid orange;
+  border: 2.5px solid var(--color-purple);
 }
 
 .algos--dataImage
@@ -498,6 +546,18 @@ header {
   justify-content: space-between;
   align-items: center;
   
+}
+
+.algos--img--outer
+{
+  
+  background-color:var(--color-blue);
+  width:60%; 
+  height:370px;
+  border-radius: 50px;
+  padding:1rem;
+  margin:0.5rem;
+
 }
 
 .sub--head--algos
@@ -518,6 +578,7 @@ header {
 .text--tag{
  color: var(--color-white);
  align-self: stretch;
+ text-align: justify;
 }
 
 .code--help
