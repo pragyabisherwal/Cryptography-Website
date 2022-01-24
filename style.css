@@ -501,7 +501,21 @@ header {
 
 /* ALGORITHMS  */
 
+.sub--head--algos
+{
+  color: var(--color-white);
+  font-size:4rem;
+  font-weight: bolder;
+  text-shadow: 1px 1px orange;
 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 2rem;
+  margin:2.5rem;
+ 
+}
 
 .heading--algos
 {
@@ -560,7 +574,7 @@ header {
 
 }
 
-.sub--head--algos
+/* .sub--head--algos
 {
   color: var(--color-white);
   font-size:4rem;
@@ -573,7 +587,7 @@ header {
   left: 2rem;
   margin-top:4rem;
  
-}
+} */
 
 .text--tag{
  color: var(--color-white);
