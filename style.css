@@ -3,7 +3,7 @@
   --color-white: #fff;
   --color-black: rgb(46, 38, 24);
   --color-blue: #A3C3D9;
-  --color-purple:#AE76A6
+  --color-purple:#AE76A6;
 }
 
 *,
@@ -87,10 +87,9 @@ p {
 
 .image--class{
   background-color: var(--color-blue);
-  border: 2px solid var(--primary-color);
-  border-radius: 60rem;
-  margin: 3rem;
-  width: 35vw;
+  border-radius:50px;
+  margin:3rem;
+  width:35vw;
   height: 45vh;
   
 }
@@ -98,15 +97,12 @@ p {
 .about--img{
   height: 45vh;
   width: 35vw;
-  border: 2px solid var(--primary-color);
-  border-radius:60rem;
-
-  margin: 1.5rem;
+  border-radius:42px;
+  margin: 0.9rem;
   display: flex;
   justify-content:center;
   align-items: center;
-  position: relative;
-  top:0.5rem;
+ 
 }
 
 .about-content{
@@ -536,14 +532,7 @@ header {
   
 }
 
-.algos--img{
-  border-radius:42px;
-  /* margin: 2.3rem; */
-  width:100%; 
-  height:350px;
-  
- 
-}
+
 
 .algos--img-2{
   border-radius: 52px;
@@ -561,6 +550,20 @@ header {
   align-items: center;
   
 }
+
+
+
+
+.algos--img{
+  border-radius:42px;
+  /* margin: 2.3rem; */
+  width:100%; 
+  height:350px;
+  
+ 
+}
+
+
 
 .algos--img--outer
 {
@@ -604,6 +607,29 @@ header {
   
   
 }
+
+.extraCode
+{
+  
+  font-weight: bolder;
+  /* border: 2px solid var(--color-purple); */
+  background-color:peru;
+  height:60px;
+  padding:10px;
+  border-radius: 10px;
+  text-align: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.extraCode:hover
+{
+  background-color: rgb(52, 129, 52);
+}
+
+
 
 
 
