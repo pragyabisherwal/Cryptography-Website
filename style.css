@@ -93,14 +93,14 @@ p {
   background-color: var(--color-blue);
   border-radius:50px;
   margin:3rem;
-  width:35vw;
+  width:25vw;
   height: 45vh;
   
 }
 
 .about--img{
   height: 45vh;
-  width: 35vw;
+  width:25vw;
   border-radius:42px;
   margin: 0.9rem;
   display: flex;
@@ -120,6 +120,28 @@ p {
   padding: 2rem;
   color: var(--color-white);
   text-align: justify;
+}
+
+.about--btn
+{
+  font-weight: bolder;
+    border-radius: 12px;
+    background-color: var(--primary-color);
+    padding: 0.5rem 1.5rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:2rem;
+    width:40%;
+    position: relative;
+    left:42rem;
+  
+}
+
+.about--btn:hover
+{
+  background-color: rgb(37, 153, 37);
 }
 
 
@@ -230,12 +252,31 @@ header {
 
 /* services  */
 
+.credit--subdata
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  font-weight: bolder;
+  font-size: larger;
+  margin-top:1rem;
+  color: var(--color-white);
+ 
+  
+}
+
+.credit--subtext{
+  text-align:left;
+}
+
 .present-ppt
 {
   display: flex;
   justify-content:center ;
   align-items: center;
-   margin: 5rem;
+  margin: 5rem;
+  
 }
 
 .desc--text
@@ -313,6 +354,7 @@ header {
   text-align: center;
   transition: transform 0.8s;
   transform-style: preserve-3d;
+  cursor: pointer;
 }
 
 /* Do an horizontal flip when you move the mouse over the flip box container */
@@ -327,6 +369,7 @@ header {
   height: 100%;
   -webkit-backface-visibility: hidden; /* Safari */
   backface-visibility: hidden;
+  cursor: pointer;
 }
 
 /* Style the front side (fallback if image is missing) */
@@ -501,13 +544,30 @@ header {
 
 /* ALGORITHMS  */
 
-.sub--head--algos
+.sub--head--algos--sec
 {
   color: var(--color-white);
   font-size:4rem;
   font-weight: bolder;
   text-shadow: 1px 1px orange;
 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top:1.5rem;
+  left: 2rem;
+  margin:2.5rem;
+ 
+}
+.sub--head--algos
+{
+  color: var(--color-white);
+  font-size:5rem;
+  letter-spacing:0.5rem;
+  font-weight: bolder;
+  text-shadow: 1px 1px orange;
+  text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
